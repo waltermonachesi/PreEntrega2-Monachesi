@@ -20,12 +20,15 @@
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <!-- My styles -->
     <link rel="stylesheet" href="CSS/style.css" />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <title>Dj Store</title>
   </head>
   <body>
     <div id="grid-container">
       <header class="header">
-        <img src="img/logo.png" alt="logo" />
+        <img src="img/logo.png" alt="logo" data-aos="zoom-in" />
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item">
@@ -48,13 +51,17 @@
       </header>
       <main class="main">
         <div class="main__content">
-          <h1 class="main__title">
+          <h1
+            class="main__title"
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+          >
             Contamos con los equipos de audio profesional más avanzados Somos la
             tienda especializada Pioneer Dj
           </h1>
         </div>
         <div class="main__img">
-          <img src="img/imagen.png" alt="imagen portada" />
+          <img src="img/imagen.png" alt="imagen portada" data-aos="flip-left" />
         </div>
         <div class="main__products">
           <h2 class="main__destacados">- Productos Destacados -</h2>
@@ -92,5 +99,9 @@
         <p class="dev">WMDev 2023</p>
       </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
