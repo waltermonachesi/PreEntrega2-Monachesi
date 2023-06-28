@@ -25,7 +25,7 @@ body #grid-container .header {
 }
 
 /* Media queries */
-@media (min-width: 768px) {
+@media (min-width: 300px) {
   .header {
     display: flex;
     align-items: center;
@@ -110,7 +110,7 @@ footer {
 
 .socials__link {
   margin-right: 1rem;
-  color: aquamarine;
+  color: rgb(127, 255, 155);
 }
 
 .contact {
