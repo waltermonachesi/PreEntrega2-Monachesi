@@ -1,3 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Poppins", sans-serif;
+  color: azure;
+  background-color: black;
+}
 
-/*# sourceMappingURL=style.css.map */
+#grid-container {
+  max-width: 95%;
+  margin: 0 auto;
+  max-width: 1200px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  height: 100vh;
+  grid-template-areas: "header" "main" "footer";
+}
+.header {
+  text-align: center;
+  grid-area: header;
+}
+
+.nav {
+  margin-top: 1rem;
+}
+
+.nav__list {
+  list-style: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: white;
+}
+
+.nav__link--active {
+  color: red;
+}
+
+.main {
+  grid-area: main;
+  text-align: center;
+}
+
+.main__content {
+  flex: 1;
+  margin-top: 45px;
+  margin-bottom: 40px;
+}
+
+.main__title {
+  font-size: 35px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  color: gray;
+}
+
+.main__img {
+  flex: 1;
+}
+
+.main__img img {
+  max-width: 100%;
+}
+
+.main__destacados {
+  color: rgb(44, 31, 14);
+}
+
+.main__products {
+  background-color: white;
+}
+
+footer {
+  grid-area: footer;
+  background-color: rgba(57, 26, 26, 0.752);
+}
+
+.socials {
+  margin-right: 40px;
+  color: #bdbdbd;
+}
+
+.socials__link {
+  margin-right: 1rem;
+  color: aquamarine;
+}
+
+.contact {
+  color: #bdbdbd;
+}
+
+.dev {
+  text-align: center;
+  color: rgb(142, 127, 255);
+}
+
+.ssdd {
+  display: grid;
+  grid-template-columns: auto;
+  color: rgb(240, 255, 240);
+}
+
+/* Media queries */
+
+@media (min-width: 768px) {
+  .header {
+    display: flex;
+    align-items: center;
+  }
+  .nav {
+    flex: 1;
+    margin-top: 0;
+  }
+  .nav__list {
+    display: flex;
+    justify-content: center;
+  }
+  .nav__item {
+    margin-left: 1rem;
+  }
+  .main {
+    display: grid;
+    align-items: center;
+  }
+}
