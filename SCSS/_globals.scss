@@ -8,22 +8,22 @@ body {
   font-family: "Poppins", sans-serif;
   color: azure;
   background-color: black;
-}
 
-#grid-container {
-  max-width: 85%;
-  margin: 0 auto;
-  max-width: 1980px;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  grid-template-columns: 1fr;
-  height: 100vh;
-  grid-template-areas: "header" "main" "footer";
-}
+  #grid-container {
+    max-width: 85%;
+    margin: 0 auto;
+    max-width: 1980px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    grid-template-areas: "header" "main" "footer";
 
-.header {
-  text-align: center;
-  grid-area: header;
+    .header {
+      text-align: center;
+      grid-area: header;
+    }
+  }
 }
 
 /* Media queries */

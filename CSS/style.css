@@ -9,8 +9,7 @@ body {
   color: azure;
   background-color: black;
 }
-
-#grid-container {
+body #grid-container {
   max-width: 85%;
   margin: 0 auto;
   max-width: 1980px;
@@ -20,8 +19,7 @@ body {
   height: 100vh;
   grid-template-areas: "header" "main" "footer";
 }
-
-.header {
+body #grid-container .header {
   text-align: center;
   grid-area: header;
 }
