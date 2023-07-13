@@ -1,29 +1,15 @@
 footer {
   grid-area: footer;
   background-color: rgba(57, 26, 26, 0.752);
-}
-
-.socials {
-  margin-right: 40px;
-  color: #bdbdbd;
+  text-align: center;
 }
 
 .socials__link {
-  margin-right: 1rem;
+  margin-right: auto;
   color: rgb(127, 255, 155);
-}
-
-.contact {
-  color: #bdbdbd;
 }
 
 .dev {
   text-align: center;
   color: rgb(142, 127, 255);
-}
-
-.ssdd {
-  display: grid;
-  grid-template-columns: auto;
-  color: rgb(240, 255, 240);
 }

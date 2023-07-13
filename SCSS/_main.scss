@@ -1,4 +1,4 @@
-.main {
+main {
   grid-area: main;
   text-align: center;
 }
@@ -10,11 +10,10 @@
 }
 
 .main__title {
-  font-size: 35px;
+  font-size: 15px;
   font-weight: 500;
   margin: 0;
   padding: 0;
-  color: gray;
 }
 
 .main__img {
