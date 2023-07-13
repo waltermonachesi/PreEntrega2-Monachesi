@@ -9,13 +9,6 @@ main {
   margin-bottom: 40px;
 }
 
-.main__title {
-  font-size: 15px;
-  font-weight: 500;
-  margin: 0;
-  padding: 0;
-}
-
 .main__img {
   flex: 1;
 }
@@ -30,4 +23,22 @@ main {
 
 .main__products {
   background-color: white;
+}
+
+.main__title {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  color: gray;
+}
+
+@media (min-width: 768px) {
+  .main__title {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    color: rgb(207, 189, 189);
+  }
 }

@@ -47,13 +47,6 @@ body #grid-container .header {
     display: grid;
     align-items: center;
   }
-  .main__title {
-    font-size: 35px;
-    font-weight: 500;
-    margin: 0;
-    padding: 0;
-    color: gainsboro;
-  }
 }
 .nav {
   margin-top: 1rem;
@@ -83,13 +76,6 @@ main {
   margin-bottom: 40px;
 }
 
-.main__title {
-  font-size: 15px;
-  font-weight: 500;
-  margin: 0;
-  padding: 0;
-}
-
 .main__img {
   flex: 1;
 }
@@ -106,6 +92,23 @@ main {
   background-color: white;
 }
 
+.main__title {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  color: gray;
+}
+
+@media (min-width: 768px) {
+  .main__title {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    color: rgb(207, 189, 189);
+  }
+}
 footer {
   grid-area: footer;
   background-color: rgba(57, 26, 26, 0.752);
